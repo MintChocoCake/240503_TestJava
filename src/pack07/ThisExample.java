@@ -57,7 +57,11 @@ public class ThisExample {
 		te2.Initialize(2024, 8, 14);
 		te2.print();
 		
-		
+		int a = 0;
+		int b = 0;
+		for (int i = 0; i < 15; i++) {
+			a += (b++);
+		}
 		
 	}
 	
